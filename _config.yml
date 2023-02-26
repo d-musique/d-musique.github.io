@@ -1,0 +1,9 @@
+---
+
+title: d-musique
+description: Cantiques
+
+theme: minima
+
+exclude:
+  - "*.sh"

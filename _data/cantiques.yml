@@ -1,0 +1,94 @@
+---
+
+- id: 12-16
+  title: Joie pour des sœurs et des frères
+  file: 12-16 Joie pour des sœurs et des frères.m4a
+  key: Dm
+
+- id: 13-05
+  title: Si mon peuple s’humilie
+  file: 13-05 Si mon peuple s’humilie.m4a
+  key: Dm
+
+- id: 21-14
+  id_arc: 216
+  title: Les mains ouvertes devant toi
+  file: 21-14 Les mains ouvertes devant toi.m4a
+  key: C
+
+- id: 41-20
+  id_arc: 264
+  title: Jésus, tout l’univers entonne
+  file: 41-20 Jésus, tout l’univers entonne.m4a
+  key: C
+
+- id: 41-23
+  id_arc: 245
+  title: Remplis d’amour et de reconnaissance
+  file: 41-23 Remplis d’amour et de reconnaissance.m4a
+  key: F
+
+- id: 41-29
+  id_hymnary: o_mighty_god_when_i_behold_the_johnson
+  title: Dieu tout-puissant
+  file: 41-29 Dieu tout-puissant.m4a
+  key: Bb
+
+- id: 44-12
+  title: Te ressembler, Jésus
+  file: 44-12 Te ressembler, Jésus.m4a
+  key: F
+
+- id: 45-07
+  id_hymnary: god_himself_is_with_us_let_us_now
+  title: Ô Seigneur suprême
+  file: 45-07 Ô Seigneur suprême.m4a
+  key: F
+
+- id: 45-20
+  title: Toujours tu es présent, Seigneur
+  file: 45-20 Toujours tu es présent, Seigneur.m4a
+  key: Am
+
+- id: 46-05
+  id_arc: 630
+  id_hymnary: when_the_toilsome_day_is_over
+  title: Mon Sauveur, je voudrais être
+  file: 46-05 Mon Sauveur, je voudrais être.m4a
+  key: F
+
+- id: 47-03
+  id_arc: 624
+  id_hymnary: through_jesus_blood_and_merit
+  title: Dans toutes nos détresses
+  file: 47-03 Dans toutes nos détresses.m4a
+  key: F
+
+- id: 47-20
+  id_arc: 154
+  id_hymnary: i_trust_in_thee_o_lord
+  title: Je me confie en toi
+  file: 47-20 Je me confie en toi.m4a
+  key: C
+
+- id: 48-09
+  title: L'amour du Seigneur est lumière
+  file: 48-09 L'amour du Seigneur est lumière.m4a
+  key: Gm
+
+- id: 49-04
+  id_hymnary: dankt_dem_herrn_heut_und_allezeit
+  title: Toi que nos cœurs ont reconnu
+  file: 49-04 Toi que nos cœurs ont reconnu.m4a
+  key: G
+
+- id: 52-09
+  title: Il est une foi
+  file: 52-09 Il est une foi.m4a
+  key: F
+
+- id: 55-07
+  id_arc: 652
+  title: Grain de blé
+  file: 55-07 Grain de blé.m4a
+  key: Gm
