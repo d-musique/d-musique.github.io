@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recherche</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"  rel="stylesheet" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <script src="categories.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body class="container">
+    <!-- page content -->
+
+    <form>
+      <div class="input-group mb-3 mt-3">
+        <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+        <input class="form-control" placeholder="Recherche" type="text" id="searchBox">
+
+        <div class="input-group-text">
+          <div id="searchSpinner" class="spinner-border" role="status">
+          </div>
+        </div>
+
+      </div>
+      <input type="submit" disabled style="display: none">
+
+    </form>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Numéro</th>
+          <th scope="col">Texte</th>
+        </tr>
+      </thead>
+      <tbody id="searchResults">
+      </tbody>
+    </table>
+
+  </body>
+</html>
