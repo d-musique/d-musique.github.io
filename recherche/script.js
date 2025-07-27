@@ -15,8 +15,19 @@ function onInputSearchText(e)
     if (timerID !== null) {
         clearTimeout(timerID);
     }
-    timerID = setTimeout(performSearch, 500, text);
-    setSpinning(true);
+    var haveTerms = extractSearchTerms(text).length > 0;
+    var divExplications = document.getElementById("explications");
+    var divResultats = document.getElementById("resultats");
+    if (!haveTerms) {
+        divExplications.style.display = "";
+        divResultats.style.display = "none";
+    }
+    else {
+        timerID = setTimeout(performSearch, 500, text);
+        setSpinning(true);
+        divExplications.style.display = "none";
+        divResultats.style.display = "";
+    }
 }
 
 function extractSearchTerms(text)
